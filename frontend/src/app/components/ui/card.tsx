@@ -1,4 +1,4 @@
-import Link from "next/Link"
+import Link from "next/link"
 
 export default function Card({name, path, imgSrc}: {name: string, path: string, imgSrc: string}){
     return (
